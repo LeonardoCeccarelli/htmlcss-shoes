@@ -2,5 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.main_container {
+    background-color: red;
+    height: 100vh;
 }
