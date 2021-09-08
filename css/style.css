@@ -6,6 +6,8 @@
     font-size: 30px;
 }
 
+/*** selettori classi ***/
+
 .main_container {
     height: 100vh;
     position: relative;
@@ -19,6 +21,8 @@
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
+/*** selettori avanzati ***/
 
 .shoes_container img {
     width: 100%;
