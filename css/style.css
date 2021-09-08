@@ -3,9 +3,70 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Rubik Mono One', sans-serif;
+    font-size: 30px;
 }
 
 .main_container {
-    background-color: red;
     height: 100vh;
+    position: relative;
+}
+
+.shoes_container {
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.shoes_container img {
+    width: 100%;
+}
+
+nav ul {
+    position: absolute;
+    top: 5%;
+    right: 2%;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    margin: 0 20px;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+}
+
+/****** CLASSI UTILITY ******/
+
+.bg_red {
+    background-color: red;
+}
+
+.bg_green {
+    background-color: green;
+}
+
+.bg_yellow {
+    background-color: yellow;
+}
+
+.text_yellow {
+    color: yellow;
+}
+
+.text_green {
+    color: green;
 }
