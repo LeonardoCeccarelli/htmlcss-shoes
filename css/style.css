@@ -29,9 +29,10 @@
 }
 
 nav ul {
-    position: absolute;
+    position: fixed;
     top: 5%;
     right: 2%;
+    z-index: 99;
 }
 
 nav ul li{
