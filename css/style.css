@@ -11,6 +11,7 @@
 .main_container {
     height: 100vh;
     position: relative;
+    overflow: auto;
 }
 
 .shoes_container {
